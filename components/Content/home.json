@@ -1,0 +1,135 @@
+{
+  "metaTitle": " Affordable Roofing – Your Trusted Local Roofers in Pennsylvania",
+  "metaDescription": "Discover affordable roofing services in Pennsylvania. Our expert team provides quality solutions for all your roofing needs without breaking the bank.", 
+  "bannerQuote": "",
+  "bannerImage": "banner.jpg",
+  "h1Banner": "Shield Your Home with Expert Roofing Repair & Installation in Pennsylvania",
+  "p1Banner": "Dependable, Affordable Roofing Solutions to Keep Your Home Safe Year-Round",
+  "h2": "Quality Roofing Solutions for Residential and Commercial Properties in Pennsylvania",
+  "p2": "For over 20 years, Affordable Roofing has proudly served the residents and businesses of Pennsylvania. We’re dedicated to providing high-quality, affordable roofing solutions that stand the test of time. Our experienced team brings top-tier craftsmanship and local expertise to every project, ensuring that our work meets your specific needs and budget.<br/><br/>As a locally owned and operated company, we understand the unique roofing challenges in Pennsylvania's climate. Whether you need minor repairs or a full roof replacement, our team is here to help. With licensed and insured professionals, we guarantee reliable, durable roofing solutions backed by quality materials and a commitment to customer satisfaction.",
+  "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill-bit-fix-ceramic-cement-roofing-screws-construction-site.jpg",
+  "reviewTtile": "Testimonials",
+  "processSection": {
+    "title": "Our Process",
+    "processData": [
+      {
+        "title": "Consultation",
+        "description": "We assess your roofing needs and provide a free detailed estimate."
+      },
+      {
+        "title": "Planning",
+        "description": "Our team schedules and plans the roofing project to fit your timeline."
+      },
+      {
+        "title": "Execution",
+        "description": "We carry out the installation or repair efficiently and to the highest standards."
+      },
+      {
+        "title": "Inspection",
+        "description": "We thoroughly inspect the completed work to ensure it meets our quality standards."
+      }
+    ]
+  },
+  "whyChooseSection": {
+    "title": "Affordable Roofing in Pennsylvania",
+    "whyChooseData": [
+      {
+        "title": "Local Expertise",
+        "imageUrl": "Quick-Turnaround.png",
+        "description": "With over 20 years serving Pennsylvania, we know what it takes to protect your home from Pennsylvania’s weather. Our knowledge of the area and roofing needs specific to our climate sets us apart."
+      },
+      {
+        "title": "Affordable Pricing",
+        "imageUrl": "Transparent-Pricing.png",
+        "description": "We understand that quality roofing shouldn’t break the bank. Our team works to provide budget-friendly solutions without sacrificing quality or craftsmanship."
+      },
+      {
+        "title": "Licensed & Insured",
+        "imageUrl": "licenced.svg",
+        "description": "You can have peace of mind knowing our company is fully licensed and insured. Our skilled professionals are trained to adhere to industry standards, protecting you and your property."
+      },
+      {
+        "title": "Quality Materials",
+        "imageUrl": "Comprehensive-Services.svg",
+        "description": "We use only the best materials to ensure your roof can withstand the elements, increase energy efficiency, and enhance curb appeal. Our partnerships with trusted manufacturers allow us to offer durable, long-lasting materials."
+      },
+      {
+        "title": "Customer Satisfaction",
+        "imageUrl": "Expert-Team.png",
+        "description": "Our client’s satisfaction is our top priority. We strive for excellence in every project, with positive reviews and word-of-mouth referrals from satisfied customers across Pennsylvania and beyond."
+      },
+      {
+        "title": "24/7 Emergency Support",
+        "imageUrl": "Customer-Support.png",
+        "description": "Roof issues can happen at any time. Our team is available around the clock for emergency repairs, giving you peace of mind knowing we’re just a call away, day or night."
+      }
+    ]
+  },
+  "h3": "Protect your Roof with Affordable Roofing",
+  "p3": "Ready to start your roofing project? Don’t wait—get a free, no-obligation quote from Affordable Roofing today! Our experts will assess your needs, provide a clear estimate, and guide you through every step of the process. Whether it's a simple repair or a full roof replacement, we offer affordable, reliable solutions that meet your budget and exceed your expectations. Contact us now and let’s secure your home with the best roofing services in Pennsylvania!",
+  "h3Image": "Roofers-construction-work.png",
+  "faq": [
+    {
+        "ques": "What types of roofing materials do you offer?",
+        "ans": "We offer a wide variety of roofing materials, including asphalt shingles, metal roofing, slate, tile, and flat roofing systems like TPO and EPDM. We’ll work with you to select the best material based on your budget, style preferences, and long-term needs."
+    },
+    {
+        "ques": "How do I know if my roof needs repair or replacement?",
+        "ans": "Signs of roof damage include leaks, missing or damaged shingles, and visible wear. We recommend a professional inspection to assess whether a repair is sufficient or if a replacement is necessary. Feel free to reach out for a free inspection and honest recommendation."
+    },
+    {
+        "ques": "How long does a typical roofing project take?",
+        "ans": "Most residential roofing projects are completed within 1-3 days, depending on the size and scope of the work. Commercial projects and specialty roofing materials may take longer. We’ll give you a clear timeline at the start of your project and keep you updated every step of the way."
+    },
+    {
+        "ques": "Is Affordable Roofing licensed and insured?",
+        "ans": "Yes, we are fully licensed and insured. Our team is highly trained to meet industry standards, ensuring a safe and secure roofing installation. Working with a licensed and insured company gives you peace of mind and protects your investment."
+    },
+    {
+        "ques": " How often should I have my roof inspected?",
+        "ans": "We recommend a roof inspection at least once a year, especially before and after harsh weather seasons. Regular inspections help detect minor issues before they become major problems, saving you time and money in the long run."
+    },
+    {
+        "ques": "Do you provide free estimates for your services?",
+        "ans": "Yes, we offer free, no-obligation estimates for all of our services. Contact us today to schedule your consultation, and we’ll give you an accurate quote based on your roofing needs."
+    }
+],
+  "testimonials":[
+    {
+      "id": 1,
+      "name": "Julia Rodriguez",
+      "content":
+        "After our roof was repaired by this team, I felt an incredible sense of relief. Their efficiency and expertise turned what could have been a major hassle into a smooth process. The quality of their work exceeded all my expectations!"
+    },
+    {
+      "id": 2,
+      "name": "Mary Robinson",
+      "content":
+        "From the initial consultation to the final inspection, the entire roofing project was handled with professionalism and care. I felt completely confident in their abilities, and the finished roof looks fantastic. Highly recommend their services!"
+    },
+    {
+      "id": 3,
+      "name": "David Clark",
+      "content":
+        "The team did an exceptional job on our roof replacement. Their attention to detail and commitment to quality were evident throughout the project. I’m so pleased with the results and grateful for their reliable service."
+    },
+    {
+      "id": 4,
+      "name": "Lisa Martinez",
+      "content":
+        "Working with them was a breeze! They handled our roof repair quickly and efficiently, and their friendly team made the whole experience stress-free. I couldn’t be happier with the outcome and their level of professionalism."
+    },
+    {
+      "id": 5,
+      "name": "Robert Harris",
+      "content":
+        "After the roof installation, I felt completely satisfied with the job. Their team was prompt, courteous, and did an excellent job. It’s great to have a roof over my head that I can trust to protect my home."
+    },
+    {
+      "id": 6,
+      "name": "Patricia Lewis",
+      "content":
+        "Their roofing service was top-notch from start to finish. They addressed all our concerns, worked diligently, and delivered outstanding results. I’m thrilled with the new roof and the peace of mind it brings."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metaTitle": "About Us - Your Roof Cleaner | 30+ Years of Experience",
+  "metaDescription": "Learn about our roofing services provider, where expertise meets reliability. We are dedicated to delivering top-notch roofing solutions for every need.",
+  "bannerQuote": "Why We’re Different: Get to  ",
+  "bannerImage": "banner.jpg",
+  "h1Banner": "About Us: Your Reliable Partner in Roofing Solutions",
+  "p1Banner": "",
+  "p2":"Welcome to Affordable Roofing, your trusted partner in quality roofing services throughout York, PA, and the surrounding areas. With over 20 years of hands-on experience, we’ve built a reputation for delivering top-notch, reliable, and affordable roofing solutions that not only protect your home but also add lasting value. That’s why we’re dedicated to ensuring your roof remains strong, secure, and durable for years to come.<br/><br/>Our team of licensed and highly-trained roofing experts takes pride in using the best materials and industry-leading techniques to handle every project with precision and care. Whether it’s a small repair, a complete roof replacement, or a new construction, we focus on delivering outstanding craftsmanship that you can trust.</p><br/>When you choose us, you’re choosing local expertise, personalized service, and a team that’s always just a call away for any of your roofing needs",
+  "h2Image":"construction-worker-with-hard-hat-building-roof-house.png",
+  "missionSection":[
+    {
+      "title": "Our Mission",
+    "description": "At Affordable Roofing, we deliver high-quality roofing with honesty, integrity, and lasting craftsmanship. We aim to exceed customer expectations on every project, prioritizing open communication to keep clients informed throughout. Our dedication to exceptional service has made us one of York’s most trusted roofing companies, and York residents rely on us for all their roofing needs."
+    },
+    {
+      "title": "Our Vision",
+    "description": "At Affordable Roofing, our vision is to provide the York, PA community with unmatched roofing solutions that blend quality, durability, and affordability. For over 20 years, we’ve dedicated ourselves to protecting the homes and families of our community, striving to be the top choice for all roofing needs."
+    },
+    {
+      "title": "Our Expertise",
+    "description": "With decades of experience, Affordable Roofing brings a depth of expertise to every project, backed by a team of highly skilled, licensed professionals who are dedicated to quality craftsmanship. Our experts are not only proficient in the latest roofing techniques and materials but are also committed to delivering solutions tailored to the unique needs of each client."
+    }
+  ],
+  "areaweserveSection":{
+    "description": "",
+    "linkText":"Check our Roofing service locations here.",
+    "link":"/locations"
+  }
+
+  
+}
