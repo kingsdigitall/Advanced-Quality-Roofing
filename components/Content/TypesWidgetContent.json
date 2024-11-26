@@ -1,0 +1,86 @@
+{
+  "title": "Types of Plumbing Services We Offer",
+  "p": "Ben Franklin Plumbing Helps You with All Your Plumbing Projects including:",
+  "lists": [
+    {
+      "title": "Drain Cleaning & Unclogging",
+      "imageUrl": "cropped-view-of-plumber-in-rubber-gloves-holding-min.jpg",
+      "description": "Clogged drains can cause major disruptions. Our expert team provides thorough drain cleaning services to keep your pipes clear and your water flowing freely."
+    },
+    {
+      "title": "Leak Detection & Repair",
+      "imageUrl": "low-angle-man-working-as-plumber-min.jpg",
+      "description": "Hidden leaks can cause significant damage. Our advanced tools help us quickly detect and repair leaks to prevent costly water damage."
+    },
+    {
+      "title": "Water Heater Installation & Repair",
+      "imageUrl": "worker-repairing-water-heater-min.jpg",
+      "description": "Whether it’s a traditional tank water heater or a tankless model, we offer reliable installation and repair services to ensure your home has consistent hot water."
+    },
+    {
+      "title": "Sewer Line Repair & Replacement",
+      "imageUrl": "leaky-pipe_min.jpg",
+      "description": "We offer professional sewer line repair and replacement services to maintain the integrity of your plumbing system and avoid major plumbing issues down the line."
+    },
+    {
+      "title": "Pipe Replacement & Re-piping",
+      "imageUrl": "plumber-repairing-performing-maintenance-big-water-pipes-min.jpg",
+      "description": "Over time, pipes can degrade. We provide pipe replacement and re-piping services to ensure your plumbing system is running efficiently and safely."
+    },
+    {
+      "title": "Toilet Repair & Installation",
+      "imageUrl": "professional-cleaner-sanitizing-toilet-in-modern-min.jpg",
+      "description": "Whether it’s a simple repair or a full toilet replacement, our team ensures your toilets function properly and are installed with care."
+    },
+    {
+      "title": "Faucet & Sink Repair & Installation",
+      "imageUrl": "plumbing-repair-service-min.jpg",
+      "description": "Dripping faucets and clogged sinks can be frustrating. We repair and install faucets, sinks, and other fixtures to ensure smooth operation and prevent water waste."
+    },
+    {
+      "title": "Plumbing Inspections",
+      "imageUrl": "plumber-in-blue-uniform-is-at-work.webp",
+      "description": "Preventative maintenance is key. Our plumbing inspections identify potential problems before they become major issues, saving you time and money in the long run."
+    },
+    {
+      "title": "New Construction Plumbing Installation",
+      "imageUrl": "builder-on-a-construction-site-working-as-plumber.webp",
+      "description": "Building a new home or commercial space? We provide expert plumbing installation services for new constructions, ensuring everything is done right from the start."
+    },
+    {
+      "title": "Garbage Disposal Repair & Installation",
+      "imageUrl": "plumber-cleaning-clogged-pipe.webp",
+      "description": "Whether your garbage disposal is jammed or you need a new one installed, we handle all your disposal needs with quick, reliable service."
+    },
+    {
+      "title": "Water Softener Installation & Repair",
+      "imageUrl": "water-filter-housing-drinking-water-system-osmo.jpg",
+      "description": "Hard water can cause a variety of issues. We install and repair water softeners to help protect your plumbing system and improve water quality."
+    },
+    {
+      "title": "Backflow Prevention & Testing",
+      "imageUrl": "backflow-prevention.jpg",
+      "description": "Protect your water supply with our backflow prevention and testing services. We ensure your plumbing complies with regulations to avoid contamination."
+    },
+    {
+      "title": "Sump Pump Installation & Repair",
+      "imageUrl": "installation-in-a-new-house-of-a-laundry-outlet.jpg",
+      "description": "Prevent flooding with a properly installed and maintained sump pump. We offer installation and repair services to ensure your basement remains dry during heavy rainfall."
+    },
+    {
+      "title": "Gas Line Services",
+      "imageUrl": "industrial-pipes-min.jpg",
+      "description": "Whether you need new gas lines installed or an existing line repaired, we provide expert gas line services to ensure safety and efficiency in your home."
+    },
+    {
+      "title": "Shower & Bathtub Repair & Installation",
+      "imageUrl": "modern-bathroom-with-small-space-contemporary-decor-min.jpg",
+      "description": "We handle all your shower and bathtub needs, from repairing leaks to installing new units, ensuring your bathroom remains functional and stylish."
+    },
+    {
+      "title": "Water Line Services",
+      "imageUrl": "installing-sewage-pipes-house-construction-concept-plumbing-construction-house-building-sewage-system-min.jpg",
+      "description": "From new water line installations to repairs, we provide expert services to ensure a steady and safe water supply to your home or business."
+    }
+  ]
+}
