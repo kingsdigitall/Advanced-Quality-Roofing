@@ -56,13 +56,12 @@ const Banner = ({
               className="absolute -top-[140%] w-32 object-cover"
             />
             <div className="translate-x-24 transform">
-              <h2 className="text-lg font-bold">
-                24/7 Emergency HAVC Services
+              <h2 className="text-lg font-bold text-center">
+                24/7 Emergency Plumbing Services - Fast, Realiable & Affordable <br/> plumbing services near you!
               </h2>
-              <p className="text-sm text-gray-300">
-                Fast & realiable heating, vetilation & air conditioning
-                solutions near you!
-              </p>
+              {/* <p className="text-sm text-gray-300">
+                Fast, Realiable & Affordable plumbing services near you!
+              </p> */}
             </div>
           </div>
           <a href={`tel:${ContactInfo.tel}`}>
