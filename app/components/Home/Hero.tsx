@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         {/* Section 1 */}
         {/* countUp */}
-        <div className="mt-16 flex flex-wrap items-center justify-around gap-4 bg-main py-8 text-center text-2xl font-bold text-white  ">
+        {/* <div className="mt-16 flex flex-wrap items-center justify-around gap-4 bg-main py-8 text-center text-2xl font-bold text-white  ">
           <div className="">
             <CountUp end={35} /> Years Experience
           </div>
@@ -67,7 +67,7 @@ const Hero = () => {
           <div className="">
             <CouterUpWithK end={1} /> Reviews
           </div>
-        </div>
+        </div> */}
         {/*  CountUp*/}
         {/* Section 2 */}
         <Types />

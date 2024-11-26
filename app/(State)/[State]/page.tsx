@@ -144,7 +144,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
                     className=" 1 rounded-md border p-4 shadow-md "
                     key={index}
                   >
-                    <div className="1 text-center text-xl font-bold text-minor">
+                    <div className="1 text-center text-xl font-bold text-main">
                       {item.title}
                     </div>
                     <div className="mt-4 text-lg">{item.description}</div>
@@ -156,9 +156,9 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         </div>
       ) : null}
       {/* Needs  */}
-      <div className="mt-14 md:mt-28">
+      {/* <div className="mt-14 md:mt-28">
         <Guarantees />
-      </div>
+      </div> */}
       {/* Section 4 */}
       {ContentData.h5 && (
         <div className="mt-14 grid grid-cols-1  gap-10 px-6 md:mt-28 md:grid-cols-2 md:px-24 ">
