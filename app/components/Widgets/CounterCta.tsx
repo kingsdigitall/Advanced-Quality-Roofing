@@ -11,23 +11,24 @@ import Image from "next/image";
 
 const CounterCta = () => {
   return (
-    <div className="mt-20  text-white relative">
-      <div className="">
-
-      </div>
-      <div className="item-center flex flex-col justify-around items-center px-4 md:px-10 py-10 md:flex-row md:py-10 relative bg-black/70 z-20">
-        <div className="max-w-4xl mx-auto text-center relative ">
+    <div className="relative  mt-20 text-white">
+      <div className=""></div>
+      <div className="item-center relative z-20 flex flex-col items-center justify-around bg-black/70 px-4 py-10 md:flex-row md:px-10 md:py-10">
+        <div className="relative mx-auto max-w-4xl text-center ">
           {/* <div className="w-fit rounded-full border border-white p-1 px-2 text-sm  font-semibold text-minor">
             NUMBER TALKS
           </div> */}
           <div className="mt-2 text-4xl">
-          Get a Free <span className="text-main">Roof</span> Estimate Today! 
+            Get a Free <span className="text-main">Roof</span> Estimate Today!
           </div>
           <div className="mt-2">
-          When you need roofing help, don’t settle for delays or uncertainty—call Affordable Roofing now for fast, dependable service you can count on! Our experienced team is ready to handle any roofing issue, big or small, with precision and care.
+            When you need roofing help, don’t settle for delays or
+            uncertainty—call Affordable Roofing now for fast, dependable service
+            you can count on! Our experienced team is ready to handle any
+            roofing issue, big or small, with precision and care.
           </div>
-          <div className="mt-4  gap-4 flex justify-center ">
-            <div className="flex flex-col text-lg  border px-4 py-2 bg-white rounded-md">
+          <div className="mt-4  flex justify-center gap-4 ">
+            <div className="flex flex-col rounded-md  border bg-white px-4 py-2 text-lg">
               <div className=" font-bold text-main">
                 <a href={`tel:${ContactInfo.tel}`}>{ContactInfo.No}</a>
               </div>
@@ -65,15 +66,15 @@ const CounterCta = () => {
           </div>
         </div> */}
       </div>
-   <div className="absolute bottom-0 left-0 top-0  right-0 ">
-    <Image
-      height={1000}
-      width={1000}
-      className="w-full h-full object-cover object-center "
-      src="/maintenance-worker-is-diligently-repairing-leaky-roof-residential-building-showcasing-skill-focus-scene-captures-essence-hard-work-dedication-home-maintenance.jpg"
-      alt="counter-cta"
-    />
-   </div>
+      <div className="absolute bottom-0 left-0 right-0  top-0 ">
+        <Image
+          height={1000}
+          width={1000}
+          className="h-full w-full object-cover object-center "
+          src="/maintenance-worker-is-diligently-repairing-leaky-roof-residential-building-showcasing-skill-focus-scene-captures-essence-hard-work-dedication-home-maintenance.jpg"
+          alt="counter-cta"
+        />
+      </div>
     </div>
   );
 };
