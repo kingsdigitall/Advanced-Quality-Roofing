@@ -51,7 +51,7 @@ const Page = () => {
       <div>
         <div className="mx-10 mt-10 flex h-fit w-auto flex-wrap gap-4 divide-x-2 divide-minor px-4">
           {Object.keys(data)
-            .sort()
+            // .sort()
             .map((City: any, index: number) => {
               return (
                 <div className="" key={index}>
