@@ -56,7 +56,7 @@ const Page = () => {
               return (
                 <div className="" key={index}>
                   <Link
-                    href={`http://${data[City].slug}.${ContactInfo.host}`}
+                    href={`https://${data[City].slug}.${ContactInfo.host}`}
                     className="scale-100 pl-4 duration-300 ease-in-out hover:font-semibold hover:text-main"
                   >
                     {data[City].name}
