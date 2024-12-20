@@ -1,0 +1,37 @@
+{
+      "title": "Types of Roofing Services We Offer",
+      "p": "Affordable Roofing helps you with any of your roofing projects including:",
+      "lists":[
+            {
+              "title": "New Construction Roofing",
+              "imageUrl": "construction-worker-with-hard-hat-building-roof-house.png",
+              "description": "We work with home builders and contractors to provide expert roofing installation for new construction projects. Our team ensures a seamless process, from planning to installation, delivering exceptional results every time."
+            },
+            {
+              "title": "Roof Rebuild",
+              "imageUrl": "young-woman-worker-on-the-construction-site.jpg",
+              "description": "If your roof has sustained significant damage or is outdated, we specialize in complete roof rebuilds, ensuring your home is fully protected with a brand-new, durable roof."
+            },
+            {
+              "title": "Roof Repair",
+              "imageUrl": "medium-shot-men-working-roof-together.jpg",
+              "description": "If your roof has leaks, missing shingles, or storm damage, our roof repair services are fast, effective, and affordable. We’re committed to restoring your roof’s integrity without the need for a full replacement whenever possible."
+            },
+            {
+              "title": "Roof Replacement",
+              "imageUrl": "maintenance-worker-is-diligently-repairing-leaky-roof-residential-building-showcasing-skill-focus-scene-captures-essence-hard-work-dedication-home-maintenance.jpg",
+              "description": "When it’s time for a new roof, we make the replacement process easy and stress-free. We help you select high-quality materials and offer skilled installation for long-lasting results. Roof replacements include detailed inspection, tear-off, disposal, and installation."
+            },
+            {
+              "title": "Roof Inspections & Maintenance",
+              "imageUrl": "Roofers-construction-work.png",
+              "description": "Regular inspections and maintenance help prevent costly repairs and extend your roof’s lifespan. Our experts will assess your roof for wear, damage, and other issues to keep it in optimal condition."
+            },
+            {
+              "title": "Roof Coating and Waterproofing",
+              "imageUrl": "roofing-team-working-at-height.jpg",
+              "description": "Extend the life of your roof with our specialized coating and waterproofing services. Our durable coatings protect against leaks, UV rays, and harsh weather, keeping your roof resilient and energy-efficient year-round."
+            }
+          ]
+}
+
