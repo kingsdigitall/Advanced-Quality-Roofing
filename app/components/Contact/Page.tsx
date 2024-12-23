@@ -29,8 +29,8 @@ const Page = () => {
             <div className="gap-6  mt-10 grid grid-cols-1 md:grid-cols-2 items-center">
               <Image
                 src={`/${contentData.h2Image}`}
-                width={500}
-                height={400}
+                width={1000}
+                height={1000}
                 alt={contentData.h2Image.split(".")[0]}
                 className="object-cover w-full h-full"
               />
@@ -120,7 +120,7 @@ const Page = () => {
         {/* Map */}
         <div className="w-full mt-10">
           <iframe
-            src="https://maps.google.com/maps?q=+connecticut+usa&t=&z=7&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=+Arizona+usa&t=&z=7&ie=UTF8&iwloc=&output=embed"
             height="350"
             className="border w-full rounded-lg mt-10"
             loading="lazy"

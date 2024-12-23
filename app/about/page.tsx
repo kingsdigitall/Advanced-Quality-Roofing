@@ -6,10 +6,9 @@ import { BiMailSend, BiSolidPhone, BiSolidTime } from "react-icons/bi";
 import { BsBookmarkStarFill, BsFillPatchCheckFill } from "react-icons/bs";
 import { FaCrown } from "react-icons/fa6";
 import Banner from "@/app/components/Home/Banner";
-import contentData from "@/components/Content/about.json"
-import ContactInfo from '@/components/Content/ContactInfo.json'
+import contentData from "@/components/Content/about.json";
+import ContactInfo from "@/components/Content/ContactInfo.json";
 import Affordable from "../components/Widgets/Affordable";
-
 
 export const metadata: Metadata = {
   title: {
@@ -17,15 +16,15 @@ export const metadata: Metadata = {
   },
   description: contentData.metaDescription,
   alternates: {
-    canonical: `${ContactInfo.baseUrl}about`
+    canonical: `${ContactInfo.baseUrl}about`,
   },
-}
+};
 const page = () => {
   const text = `text-[#f76610]`;
   const btn = `bg-[#f76610] hover:bg-[#191e34]`;
   return (
-    <div className="flex flex-col max-[1200px] justify-center items-center  bg-white text-black ">
-      <div className="  cursor-default w-screen md:w-full  min-w-[375px] text-lg">
+    <div className="max-[1200px] flex flex-col items-center justify-center  bg-white text-black ">
+      <div className="  w-screen min-w-[375px] cursor-default  text-lg md:w-full">
         {/* poster */}
         <Banner
           h1={contentData.h1Banner}
@@ -35,9 +34,9 @@ const page = () => {
         />
         {/* poster */}
         {/* -----------------------------------------About Start------------------------ */}
-        <div className="md:mx-10 mx-4 mt-6 print:hidden">
+        <div className="mx-4 mt-6 print:hidden md:mx-10">
           {/* who */}
-          <div className="grid grid-cols-1  md:grid-cols-2 w-full gap-6 my-20 px-8 justify-center items-center">
+          <div className="my-20 grid  w-full grid-cols-1 items-center justify-center gap-6 px-8 md:grid-cols-2">
             <div className="flex flex-col justify-center    ">
               <div className="text-">ABOUT </div>
               <div className="text-3xl font-bold ">
@@ -45,13 +44,15 @@ const page = () => {
                 Who We Are?<br></br>
               </div>
               <div className="mt-6 "></div>
-              <div className="  text-justify" dangerouslySetInnerHTML={{ __html: contentData.p2 }}>
-              </div>
+              <div
+                className="  text-justify"
+                dangerouslySetInnerHTML={{ __html: contentData.p2 }}
+              ></div>
             </div>
             <div className="w-full pt-10">
               <Image
                 src={`/${contentData.h2Image}`}
-                className="border rounded-lg shadow-lg  object-cover "
+                className="rounded-lg border object-cover  shadow-lg "
                 alt={contentData.h2Image.split(".")[0]}
                 width={1000}
                 height={1000}
@@ -76,15 +77,16 @@ const page = () => {
             </div>
           </div> */}
           {/* Commitment */}
-
         </div>
         {/* -----------------------------------------About End------------------------ */}
         {/* Mission */}
-        <Affordable Data={{
-  missionSection: contentData.missionSection,
-  missionTitle: contentData.missionTitle,
-  missionDescription: contentData.missionDescription
-}} />
+        <Affordable
+          Data={{
+            missionSection: contentData.missionSection,
+            missionTitle: contentData.missionTitle,
+            missionDescription: contentData.missionDescription,
+          }}
+        />
 
         {/* <div className="md:mx-10 mx-4 mt-6 flex md:flex-row flex-col gap-8 md:px-32 relative  h-full">
 
@@ -111,28 +113,40 @@ const page = () => {
         {/* Mission */}
         {/* -----------------------------------------Conversation ------------------------ */}
         <div className="my-20">
-          <div className={`text-main text-4xl font-extrabold text-center`}>
+          <div className={`text-center text-4xl font-extrabold text-main`}>
             Let&apos;s Start a Conversation
           </div>
-          <div className="text-center mt-4 border-double">
-            <button className={`bg-main hover:bg-minor shadow-lg rounded-lg py-3 px-4 tracking-wide mt-3     text-white font-bold`}>
+          <div className="mt-4 border-double text-center">
+            <button
+              className={`mt-3 rounded-lg bg-main px-4 py-3 font-bold tracking-wide text-white     shadow-lg hover:bg-minor`}
+            >
               <a href={`tel:${ContactInfo.tel}`}> {ContactInfo.No}</a>
             </button>
           </div>
         </div>
         {/* -----------------------------------------Conversation End------------------------ */}
         {/* all */}
-        <div className="md:mx-20 mx-4 my-20">
-          <div className="text-2xl font-bold "><div className="flex justify-center gap-2 "><FaCrown className={`text-2xl text-main `} />Areas We Serve</div></div>
-          <div className=" mt-2 text-xl text-center" dangerouslySetInnerHTML={{ __html: contentData.areaweserveSection.description }}> 
-            
+        <div className="mx-4 my-20 md:mx-20">
+          <div className="text-2xl font-bold ">
+            <div className="flex justify-center gap-2 ">
+              <FaCrown className={`text-2xl text-main `} />
+              Areas We Serve
+            </div>
           </div>
+          <div
+            className=" mt-2 text-center text-xl"
+            dangerouslySetInnerHTML={{
+              __html: contentData.areaweserveSection.description,
+            }}
+          ></div>
           <div className="flex justify-center">
-          <Link href={`${ContactInfo?.baseUrl}locations`} className=" font-bold text-main hover:tracking-wide ease-in duration-150 text-xl text-center ">{contentData.areaweserveSection.linkText}</Link>
+            <Link
+              href={`${ContactInfo?.baseUrl}locations`}
+              className=" text-center text-xl font-bold text-main duration-150 ease-in hover:tracking-wide "
+            >
+              {contentData.areaweserveSection.linkText}
+            </Link>
           </div>
-          
-          
-
         </div>
         {/* all */}
         {/* -----------------------------------------Our Mission Start------------------------ */}

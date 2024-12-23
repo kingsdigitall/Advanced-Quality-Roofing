@@ -137,7 +137,7 @@ const Hero = () => {
               title="Google Map"
               height="350"
               width={"100%"}
-              src={`https://maps.google.com/maps?q=+connecticut+usa&t=&z=6&ie=UTF8&iwloc=&output=embed`}
+              src={`https://maps.google.com/maps?q=+Arizona+usa&t=&z=6&ie=UTF8&iwloc=&output=embed`}
               loading="lazy"
             ></iframe>
           </div>

@@ -174,7 +174,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
               height={10000}
               width={10000}
               src={`/${ContentData.h5Image}`}
-              className=" h-full w-full rounded-lg object-cover shadow-lg"
+              className=" h-80 w-full rounded-lg object-cover shadow-lg"
               alt={ContentData.h5Image.split(".")[0]}
               title={ContentData.h5Image.split(".")[0]}
             />

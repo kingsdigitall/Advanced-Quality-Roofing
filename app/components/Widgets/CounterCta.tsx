@@ -22,10 +22,10 @@ const CounterCta = () => {
           NUMBER TALKS
         </div> */}
         <div className="mt-2 text-4xl">
-        Book Your <span className="text-minor">Appointment </span> Today with Ben Franklin Plumbers for Quality Service
+        Need Reliable <span className="text-minor">Roofing?</span> Call Advanced Quality Roofing AZ Today!
         </div>
         <div className="mt-4">
-        Don’t let plumbing issues disrupt your day – Ben Franklin Plumbing is here to provide you with fast, reliable, and affordable solutions. Whether you&apos;re dealing with a leaky faucet, or clogged drain, or need a complete system overhaul, our team of expert plumbers in West Hartford, CT, is ready to serve you.
+        We are dedicated to providing top-quality and affordable roofing services you can trust in Yorktown, AZ. Whether you need a quick repair, a comprehensive roof inspection, or a complete roof replacement, our skilled professionals are ready to assist. Contact us today to schedule your consultation and experience exceptional service from start to finish.
         </div>
         <div className="mt-6  gap-4 flex justify-center ">
           <div className="flex flex-col text-lg  border px-4 py-2 bg-white rounded-md">
@@ -42,7 +42,7 @@ const CounterCta = () => {
     height={1000}
     width={1000}
     className="w-full h-full object-cover object-center "
-    src="/plumbing-repair-service-min.jpg"
+    src="/maintenance-worker-is-diligently-repairing-leaky-roof-residential-building-showcasing-skill-focus-scene-captures-essence-hard-work-dedication-home-maintenance.jpg"
     alt="counter-cta"
   />
  </div>

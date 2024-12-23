@@ -21,8 +21,8 @@ const Banner = ({
         className="absolute h-[70vh] w-[100%] object-cover  md:h-[460px] "
         src={`/${image}`}
         alt="Banner_Image"
-        width={900}
-        height={900}
+        width={10000}
+        height={10000}
       />
       <div className="top-30  relative  flex h-full items-center gap-2 bg-gradient-to-r  from-[#000000f3] to-[#00000050] text-3xl text-white   md:px-12 md:text-[40px] w-full ">
         <div className=" px-4 pt-4 font-bold leading-[50px] text-white md:mt-14 md:px-0 md:pt-20 text-center lg:pt-0  w-full" >
@@ -46,7 +46,7 @@ const Banner = ({
         </div>
       </div>
       <div className="absolute -bottom-28 left-1/2 hidden w-full -translate-x-1/2 -translate-y-1/2 transform  lg:block">
-        <div className="mx-auto flex h-28 max-w-5xl items-center justify-between rounded-lg bg-minor p-6 text-white shadow-lg">
+        <div className="mx-auto flex h-28 max-w-5xl items-center justify-between rounded-lg bg-main p-6 text-white shadow-lg">
           <div className="relative flex items-center space-x-4 ">
             <Image
               width={10000}
@@ -57,7 +57,7 @@ const Banner = ({
             />
             <div className="translate-x-24 transform">
               <h2 className="text-lg font-bold text-center">
-                24/7 Emergency Plumbing Services - Fast, Realiable & Affordable <br/> plumbing services near you!
+                24/7 Emergency Roofing Services - Fast, Realiable & Affordable <br/> roofing services near you!
               </h2>
               {/* <p className="text-sm text-gray-300">
                 Fast, Realiable & Affordable plumbing services near you!
@@ -67,7 +67,7 @@ const Banner = ({
           <a href={`tel:${ContactInfo.tel}`}>
             <button
               aria-label="Call"
-              className={`flex items-center  rounded-lg  bg-main p-3 px-4  text-xl font-semibold text-white`}
+              className={`flex items-center  rounded-lg  bg-minor p-3 px-4  text-xl font-semibold text-white`}
             >
               <FaPhoneVolume className="mr-2 text-3xl" />
               {ContactInfo.No}

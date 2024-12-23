@@ -14,14 +14,14 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className=" sticky   top-0 z-[999] flex h-[5rem]  w-screen items-center justify-center border-y-2 bg-white md:w-full px-4 md:px-0">
+      <nav className=" sticky   top-0 z-[999] flex h-[5rem]  w-screen items-center justify-center  bg-white md:w-full px-4 md:px-0">
         <div className=" relative w-screen md:w-full md:max-w-[1280px] md:px-10  md:py-4">
           <div className="mt-0 flex flex-row justify-between space-x-8 rounded-2xl rounded-tr-none text-sm font-medium md:mr-6 md:justify-around px-4">
             <div className="flex ">
               <Link href={ContactInfo?.baseUrl} aria-label="Home">
                 <Image
                   src="/logo.png"
-                  className=" md:mr-3 w-56 md:w-32 h-full object-cover "
+                  className=" w-full  h-16 object-cover "
                   alt="logo of the company"
                   title=""
                   loading="lazy"
@@ -40,7 +40,7 @@ const Navbar = () => {
                           ? `${ContactInfo?.baseUrl}`
                           : `${ContactInfo?.baseUrl}${item.toLowerCase().split(" ").join("-")}`
                       }
-                      className="under  text-black decoration-minor decoration-2  duration-150 ease-in-out hover:underline "
+                      className="text-black  decoration-minor decoration-2  duration-150 ease-in-out hover:underline "
                       aria-current="page"
                     >
                       {item}
@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
             <div className="  hidden items-center justify-center lg:flex   ">
               <a href={`tel:${ContactInfo.tel}`}>
-                <button className="flex items-center justify-center rounded bg-main px-2 py-2 text-sm font-bold text-white   duration-200 ease-in-out hover:border-2 hover:border-main hover:bg-white hover:text-black md:px-4">
+                <button className="flex items-center justify-center rounded bg-minor px-2 py-2 text-sm font-bold text-white   duration-200 ease-in-out hover:border-2 hover:border-main hover:bg-white hover:text-black md:px-4">
                   <FaPhoneVolume className="text-3xl " />
                   {ContactInfo.No}
                 </button>

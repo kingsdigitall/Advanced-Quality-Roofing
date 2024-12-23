@@ -17,48 +17,48 @@ const ReviewWidget: React.FC = () => {
     {
       name: "Sarah Jose",
       content:
-        "Exceptional service! Ben Franklin Plumbing came to our rescue when our water heater stopped working. The technician was professional, friendly, and had the problem fixed quickly. I highly recommend them for any plumbing issues!",
+        "I noticed a small leak in my ceiling right before the rainy season started. I called them for service, and they were at my home the next day. They found the issue, explained the problem clearly, and repaired it quickly. No more leaks, even after heavy rain! I’m so grateful for their quick response and professionalism.",
     },
     {
       name: "Mark T",
       content:
-        "I’ve used Ben Franklin Plumbing for multiple projects over the years, and I’m always impressed with their efficiency and customer care. From drain cleaning to pipe repairs, they’ve handled it all with ease!",
+        "I was worried about replacing my old roof because I’d heard horror stories about hidden fees. But Advanced Quality Roofing AZ was completely upfront about the cost and timeline. They stuck to their word, and my new roof looks amazing. I recommend them to anyone looking for honest roofers.",
     },
     {
       name: "Samantha Brown",
       content:
-        "The team at Ben Franklin Plumbing is outstanding! I had a leak in my kitchen, and they were able to come out the same day to fix it. Great work and very affordable pricing!",
+        "From the moment I called Advanced Quality Roofing AZ, I felt like I was in good hands. The team was courteous and explained every step of the process. They even cleaned up so thoroughly after replacing my roof that my yard looked better than when they arrived.",
     },
     {
       name: "Karen M",
       content:
-        "Our sewer line had issues, and Ben Franklin Plumbing handled the entire process with professionalism. They explained everything thoroughly and even offered helpful maintenance tips for the future.",
+        "I’ve had roofing work done before, but none of those experiences compare to working with Advanced Quality Roofing AZ. They made everything easy and stress-free. The work was completed ahead of schedule, and the quality is top-notch. I’ll call them again if I need anything in the future.",
     },
     {
       name: "Mark Jose",
       content:
-        "I called Ben Franklin Plumbing for an emergency water leak, and they arrived within the hour! They fixed the problem efficiently and provided a fair quote. I will call them again.",
+        "My roof was over 20 years old and starting to show signs of wear. Advanced Quality Roofing AZ inspected it, gave me an honest assessment, and recommended a replacement. Now, I don’t have to worry about leaks or energy loss. Their work is worth every penny.",
     },
     {
       name: "Emily Rose",
       content:
-        "I was impressed with how quickly Ben Franklin Plumbing responded to my emergency. Their technician was knowledgeable and took care of everything without a hitch. I can’t recommend them enough!",
+        "I signed up for regular maintenance with Advanced Quality Roofing AZ, and it’s been a great decision. They come out on schedule, check everything, and fix small issues before they become big problems. It’s saved me so much time and money over the years.",
     },
     {
       name: "Lisa ",
       content:
-        "Ben Franklin Plumbing is my go-to for all plumbing needs! They’ve done everything from routine maintenance to emergency repairs. Always friendly, reliable, and on time!",
+        "I’ve recommended Advanced Quality Roofing AZ to all my friends and family. They repaired my roof after a big hailstorm, and their work was flawless. What impressed me the most was their honesty—they didn’t try to upsell me on unnecessary repairs.",
     },
     {
-      name: "Chris T.",
+      name: "Lisa ",
       content:
-        "I had a burst pipe in my basement, and Ben Franklin Plumbing handled it expertly. The team was on time, very professional, and fixed the problem right away. I’m really happy with the service!",
+        "I recently had a new roof installed by Advanced Quality Roofing AZ, and it’s absolutely beautiful. It’s not just functional—it’s improved my home’s curb appeal, too. I’ve had so many compliments from my neighbors. Thanks for the great work!",
     },
     {
-      name: "Steven",
+      name: "Lisa ",
       content:
-        "Our bathroom renovation wouldn’t have been the same without Ben Franklin Plumbing. They helped with the plumbing installation, and everything turned out perfectly. Highly recommended!",
-    },
+        "When I called Advanced Quality Roofing AZ about a roofing emergency, they treated my issue like a priority. Their team arrived the same day and secured my roof to prevent further damage. I can’t thank them enough for their quick response and excellent service.",
+    }
   ];
 
   const settings = {
@@ -118,10 +118,9 @@ const ReviewWidget: React.FC = () => {
                 className="w-40 "
               />
             </div>
-
-            <h3 className="mt-4 text-center text-xl  font-semibold">
+            {/* <h3 className="mt-4 text-center text-xl  font-semibold">
               {item.name}
-            </h3>
+            </h3> */}
             <p className="mt-4 ">{item.content}</p>
           </div>
         ))}
