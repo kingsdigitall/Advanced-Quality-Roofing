@@ -1,8 +1,5 @@
 import React from 'react'
 import contactInfo from "@/components/Content/ContactInfo.json"
-import { GrUserWorker } from 'react-icons/gr';
-import { FaRegThumbsUp } from 'react-icons/fa';
-import { GiReceiveMoney } from "react-icons/gi";
 
 const Affordable = ({Data}:any) => {
   // console.log(Data);
@@ -17,7 +14,7 @@ const Affordable = ({Data}:any) => {
          {Data.missionDescription}
           </p>
           <a id='cta-id' href={`tel:${contactInfo.tel}`}>
-          <button className="mt-8 rounded-lg bg-minor px-6 py-3 text-white transition hover:bg-main ease-in duration-700" >
+          <button id='cta-id' className="mt-8 rounded-lg bg-minor px-6 py-3 text-white transition hover:bg-main ease-in duration-700" >
             Call Now
           </button>
           </a>

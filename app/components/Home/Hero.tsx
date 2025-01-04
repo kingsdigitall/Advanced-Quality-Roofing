@@ -18,8 +18,12 @@ import CtaState from "../CtaState";
 import Service from '@/app/components/Home/Service'
 import Types from "../Widgets/Types";
 import ReviewWidget from "../Widgets/ReviewWidget";
+import AreaWeServe from "../Widgets/AreaWeServe";
+import content from "@/components/Content/subDomainUrlContent.json";
 
 const Hero = () => {
+  const cityData: any = content;  
+  const slugs: any = Object.keys(cityData).map((key) => cityData[key]);
   return (
     <div className="w-screen md:flex  md:w-full md:flex-col md:items-center md:justify-center overflow-hidden">
       <div className="w-full overflow-hidden text-lg  print:hidden  dark:bg-white dark:text-black">
@@ -93,14 +97,14 @@ const Hero = () => {
           />
         </div>
         <div className=" flex w-full flex-col gap-3   ">
-          <h2 className="text-2xl font-bold">{homeData.h3}</h2>
+          <h2 className="text-3xl font-bold">{homeData.h3}</h2>
 
           <div
             className="mt-3  text-justify"
             dangerouslySetInnerHTML={{ __html: homeData?.p3 }}
           ></div>
           <a id='cta-id' href={`tel:${ContactInfo.tel}`} className="flex justify-center">
-            <button className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
+            <button id='cta-id' className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
               {ContactInfo.No}
             </button>
           </a>
@@ -121,6 +125,10 @@ const Hero = () => {
         <HourCta />
         </div>
         {/* CTA */}
+        <div className="mt-14 md:mt-20">
+        <h2 className={`  text-center text-3xl font-bold text-minor`}>Cities We Serve </h2>
+        <AreaWeServe slugs={slugs} />
+      </div>
         {/* FAQ */}
         <Faq data={homeData?.faq}/>
        
