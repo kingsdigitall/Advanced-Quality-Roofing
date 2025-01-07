@@ -39,10 +39,10 @@ const page = () => {
           <div className="my-20 grid  w-full grid-cols-1 items-center justify-center gap-6 px-8 md:grid-cols-2">
             <div className="flex flex-col justify-center    ">
               <div className="text-">ABOUT </div>
-              <div className="text-3xl font-bold ">
+              <h2 className="text-3xl font-bold ">
                 {" "}
                 Who We Are?<br></br>
-              </div>
+              </h2>
               <div className="mt-6 "></div>
               <div
                 className="  text-justify"
@@ -113,11 +113,11 @@ const page = () => {
         {/* Mission */}
         {/* -----------------------------------------Conversation ------------------------ */}
         <div className="my-20">
-          <div className={`text-center text-4xl font-extrabold text-main`}>
+          <h2 className={`text-center text-4xl font-extrabold text-main`}>
             Let&apos;s Start a Conversation
-          </div>
+          </h2>
           <div className="mt-4 border-double text-center">
-            <button
+            <button id="cta-id"
               className={`mt-3 rounded-lg bg-main px-4 py-3 font-bold tracking-wide text-white     shadow-lg hover:bg-minor`}
             >
               <a id='cta-id' href={`tel:${ContactInfo.tel}`}> {ContactInfo.No}</a>
@@ -127,11 +127,11 @@ const page = () => {
         {/* -----------------------------------------Conversation End------------------------ */}
         {/* all */}
         <div className="mx-4 my-20 md:mx-20">
-          <div className="text-2xl font-bold ">
-            <div className="flex justify-center gap-2 ">
-              <FaCrown className={`text-2xl text-main `} />
+          <div className="text-3xl font-bold ">
+            <h2 className="flex justify-center gap-2 ">
+              <FaCrown className={`text-3xl text-main `} />
               Areas We Serve
-            </div>
+            </h2>
           </div>
           <div
             className=" mt-2 text-center text-xl"

@@ -24,11 +24,7 @@ const page = () => {
         header={contentData.bannerQuote}
         p1={contentData.p1Banner}
       />
-      <div className="py-10">
-        <h2 className="text-center text-3xl text-main">
-          {" "}
-          {contentData.areatitle}
-        </h2>
+      <div className="pb-10">
       <FullPage />
       </div></div>
   )
