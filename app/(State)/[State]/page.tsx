@@ -75,7 +75,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         h1={ContentData.h1Banner}
         image={ContentData.bannerImage}
         header={ContentData.bannerQuote}
-        p1={ContentData.p1Banner}
+        p1={ContentData.metaDescription}
       />
       {/* Section 1 */}
       {/* <p>{subDomain.map((item:any)=>(
@@ -193,7 +193,6 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         </div>
       )}
       {/* Section 4 */}
-
       {/* Section 5 */}
       {ContentData.h6 && (
         <div className="mt-14 grid grid-cols-1  gap-10 px-6 md:mt-28 md:grid-cols-2 md:px-24">
