@@ -75,7 +75,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         h1={ContentData.h1Banner}
         image={ContentData.bannerImage}
         header={ContentData.bannerQuote}
-        p1={ContentData.p1Banner}
+        p1={ContentData.metaDescription}
       />
       {/* Section 1 */}
       {/* <p>{subDomain.map((item:any)=>(
@@ -98,8 +98,15 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
             className="mt-3  text-justify"
             dangerouslySetInnerHTML={{ __html: ContentData?.p2 }}
           ></div>
-          <a id='cta-id' href={`tel:${ContactInfo.tel}`} className="flex justify-center">
-            <button id="cta-id" className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
+          <a
+            id="cta-id"
+            href={`tel:${ContactInfo.tel}`}
+            className="flex justify-center"
+          >
+            <button
+              id="cta-id"
+              className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor "
+            >
               {ContactInfo.No}
             </button>
           </a>
@@ -186,7 +193,6 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         </div>
       )}
       {/* Section 4 */}
-
       {/* Section 5 */}
       {ContentData.h6 && (
         <div className="mt-14 grid grid-cols-1  gap-10 px-6 md:mt-28 md:grid-cols-2 md:px-24">
@@ -335,8 +341,10 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
       ) : null}
       {/* Top Sight */}
       {/* Area we Serve */}
-      <div className="mt-14 md:mt-28">
-        <h2 className={`  text-center text-3xl font-bold text-minor`}>Cities We Serve </h2>
+      <div className="pt-14 md:pt-28" id="area-we-serve">
+        <h2 className={`  text-center text-3xl font-bold text-minor`}>
+          Cities We Serve{" "}
+        </h2>
         <AreaWeServe slugs={slugs} />
       </div>
       {/* Area we Serve */}

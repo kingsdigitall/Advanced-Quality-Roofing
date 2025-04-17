@@ -22,7 +22,7 @@ const page = () => {
         h1={contentData.h1Banner}
         image={contentData.bannerImage}
         header={contentData.bannerQuote}
-        p1={contentData.p1Banner}
+        p1={contentData.metaDescription}
       />
       <div className="pb-10">
       <FullPage />

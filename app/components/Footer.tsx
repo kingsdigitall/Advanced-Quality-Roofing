@@ -68,9 +68,23 @@ const Footer = () => {
               </div>
             </div> */}
           </div>
-          <div className="mx-9 mt-10 border-t-2 border-minor text-center  text-xl text-main ">
+          <div className="mx-9   text-center  text-3xl font-medium text-minor ">
+            <p className="my-2 underline-offset-8 duration-300 ease-in-out hover:underline hover:underline-offset-2">
+              <Link href="https://advancedqualityroofingaz.com/our-brands">
+                {" "}
+                Our Other Brand{" "}
+              </Link>
+            </p>
+            <p className="my-2 text-lg underline-offset-8 duration-300 ease-in-out hover:underline hover:underline-offset-2">
+              <Link href="https://advancedqualityroofingaz.com/sitemap.xml">
+                {" "}
+                Sitemap{" "}
+              </Link>
+            </p>
+          </div>
+          <div className="mx-9  border-t-2 border-minor text-center  text-xl text-main ">
             <p className="my-2">
-            Copyright ©2024 {ContactInfo.name}, All Right Reserved
+              Copyright ©2025 {ContactInfo.name}, All Right Reserved
             </p>
           </div>
         </div>
