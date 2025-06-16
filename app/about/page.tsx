@@ -6,9 +6,16 @@ import { BiMailSend, BiSolidPhone, BiSolidTime } from "react-icons/bi";
 import { BsBookmarkStarFill, BsFillPatchCheckFill } from "react-icons/bs";
 import { FaCrown } from "react-icons/fa6";
 import Banner from "@/app/components/Home/Banner";
-import contentData from "@/components/Content/about.json";
+import contentData1 from "@/components/Content/about.json";
 import ContactInfo from "@/components/Content/ContactInfo.json";
 import Affordable from "../components/Widgets/Affordable";
+ const contentData = JSON.parse(
+    JSON.stringify(contentData1)
+      .split("[location]")
+      .join(ContactInfo.location)
+      .split("[phone]")
+      .join(ContactInfo.No),
+  );
 
 export const metadata: Metadata = {
   title: {
@@ -20,8 +27,6 @@ export const metadata: Metadata = {
   },
 };
 const page = () => {
-  const text = `text-[#f76610]`;
-  const btn = `bg-[#f76610] hover:bg-[#191e34]`;
   return (
     <div className="max-[1200px] flex flex-col items-center justify-center  bg-white text-black ">
       <div className="  w-screen min-w-[375px] cursor-default  text-lg md:w-full">
@@ -51,7 +56,7 @@ const page = () => {
             </div>
             <div className="w-full pt-10">
               <Image
-                src={`/${contentData.h2Image}`}
+                src={`${contentData.h2Image}`}
                 className="rounded-lg border object-cover  shadow-lg "
                 alt={contentData.h2Image.split(".")[0]}
                 width={1000}

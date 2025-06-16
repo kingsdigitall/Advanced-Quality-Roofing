@@ -10,7 +10,7 @@ const Banner = ({
   p1,
   h1,
 }: {
-  image: string;
+  image?: string;
   header: string;
   p1: string;
   h1: string;
@@ -19,7 +19,7 @@ const Banner = ({
     <div className=" relative  mb-24 h-[70vh] max-w-[2100px] duration-150 ease-in-out md:mt-0 md:h-[460px]">
       <Image
         className="absolute h-[70vh] w-[100%] object-cover  md:h-[460px] "
-        src={`/${image}`}
+        src={`/banner.webp`}
         alt="Banner_Image"
         width={10000}
         height={10000}
@@ -31,7 +31,9 @@ const Banner = ({
             {header && header} <br />{" "}
             <h1 className={`inline text-white`}>{h1}</h1>
           </div>
-          <div className="mt-6 text-xl font-normal">{p1 && `${p1} `}</div>
+          <div className="mx-auto mt-6 max-w-5xl text-xl font-normal">
+            {p1 && `${p1} `}
+          </div>
           <div className="flex flex-col items-center md:flex-row  md:gap-10 lg:hidden ">
             <a id="cta-id" href={`tel:${ContactInfo.tel}`}>
               <button
