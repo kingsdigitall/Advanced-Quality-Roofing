@@ -1,9 +1,81 @@
 {
-      "metaTitle": "Top Roofing Services in Arizona | Advanced Quality Roofing",
-      "metaDescription": "We offer installations, repairs, replacement & other roofing services in Arizona for homes and businesses. Call us at (602) 894-5307 Today For A Free Quote!",
-      "bannerQuote": "",
-      "bannerImage": "banner.jpg",
-      "h1Banner": "Your Trusted Provider for Roofing Services",
-      "p1Banner":"",
-      "serviceTitle":""
+  "metaTitle": "Professional Roofing Services in [location]",
+  "metaDescription": "Looking for trusted roofing experts in [location]? We specialize in long-lasting repairs, expert installations, and detailed inspections. Call [phone] to speak with a roofing specialist near you.",
+  "bannerQuote": "Built to Shield. Engineered to Last.",
+  "bannerImage": "https://ik.imagekit.io/z6skgnupx/uploads/2025/06/roofing-banner-image.jpg",
+  "h1Banner": "Your Reliable Roofing Partner in [location]",
+  "p1Banner": "Looking for trusted roofing experts in [location]? We specialize in long-lasting repairs, expert installations, and detailed inspections. Call [phone] to speak with a roofing specialist near you.",
+  "serviceTitle": "Durable Roofing Solutions Tailored ",
+  "serviceData": {
+    "title": "Your Roof’s Best Support System ",
+    "p": "",
+    "lists": [
+      {
+        "title": "New Roof Installation in [location]",
+        "description": "Call [phone] to schedule new roof installation in [location]. Ideal for homeowners building from scratch or expanding existing space. Our roofing solutions balance durability, energy performance, and curb appeal.",
+        "h2": "Let’s Start From the Top",
+        "p2": "New roof installation in [location] demands careful planning, quality materials, and precision. Our team works with you from concept to completion—making sure the final product performs as good as it looks.",
+        "h3": "Perfect for Expanding Homes",
+        "p3": "New builds | Home extensions | Guest suites | Garage add-ons | Custom property upgrades",
+        "seoContent": "<h2>New Roof Installation in [location]</h2><p>Our roof installation services in [location] are designed for long-term performance. We help you choose materials that match your climate, budget, and style—then install with care. Call [phone] today.</p>",
+        "slug": "new-roof-installation",
+        "imageUrl": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/worker-hands-installing-bitumen-roof-shingle.jpg?updatedAt=1749641049568"
+      },
+      {
+        "title": "Roof Repairs in [location]",
+        "description": "Call [phone] for fast roof repairs in [location]. We handle small leaks, shingle loss, weather damage, and everything in between. Expect quick service and honest solutions.",
+        "h2": "Catch the Damage Before It Spreads",
+        "p2": "Roof repairs aren’t just quick fixes—they’re preventative protection. We assess your roof in [location] thoroughly, target the real problem, and make durable repairs that last.",
+        "h3": "Roof Problems We Commonly Handle",
+        "p3": "Water entry | Shingle wear | Wind damage | Exposed nail heads | Minor structural shifts | Flashing issues",
+        "seoContent": "<h2>Roof Repair Services in [location]</h2><p>Timely roof repairs in [location] protect your structure from further damage. We respond quickly and work clean, so you don’t have to worry. Call [phone] for dependable service.</p>",
+        "slug": "roof-repairs",
+        "imageUrl": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/male-builder-doing-thermal-insulation-on-roof.jpg?updatedAt=1749641038841"
+      },
+      {
+        "title": "Roof Inspections in [location]",
+        "description": "Call [phone] to book a roof inspection in [location]. Whether it’s been a stormy season or you’re planning to sell, we offer detailed, clear reports on your roof’s condition.",
+        "h2": "Stay Informed Before Trouble Starts",
+        "p2": "Roof inspections in [location] are more than routine—they’re strategic. We check every layer of your roof to identify early signs of weakness, wear, or damage.",
+        "h3": "Best Times to Schedule an Inspection",
+        "p3": "Property listings | Seasonal checkups | Insurance needs | Post-storm evaluation | Warranty claims",
+        "seoContent": "<h2>Roof Inspection Experts in [location]</h2><p>Our thorough inspections in [location] cover everything from structural stability to material integrity. Get an expert eye on your roof. Call [phone] today.</p>",
+        "slug": "roof-inspections",
+        "imageUrl": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/Roofers-construction-work.png?updatedAt=1749641044146"
+      },
+      {
+        "title": "Roof Replacement in [location]",
+        "description": "Call [phone] for full-service roof replacement in [location]. If your roof has aged or suffered major damage, we’ll remove the old system and install a new one designed to last decades.",
+        "h2": "When It’s Time, We Rebuild Better",
+        "p2": "Roof replacement in [location] should never feel stressful. We keep things smooth, from removal to cleanup. Our team ensures your new roof is stronger, safer, and built for local weather.",
+        "h3": "Roof Replacement Is Ideal For",
+        "p3": "Storm-damaged roofs | Aging materials | Substandard installation | Major leaks | Energy inefficiency",
+        "seoContent": "<h2>Reliable Roof Replacement in [location]</h2><p>We remove worn-out roofing and replace it with high-quality materials that are built to handle the environment in [location]. Let’s upgrade your home—call [phone].</p>",
+        "slug": "roof-replacement",
+        "imageUrl": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/worker-hands-installing-bitumen-roof-shingle.jpg?updatedAt=1749641049568"
+      },
+      {
+        "title": "Emergency Roofing Services in [location]",
+        "description": "Call [phone] anytime for 24/7 emergency roofing in [location]. We handle storm damage, tree impacts, and active leaks with fast, secure fixes.",
+        "h2": "Rapid Roofing Support, 24/7",
+        "p2": "We know roofing emergencies don’t wait for business hours. Whether it’s storm aftermath or sudden leaks, our emergency team in [location] is ready to secure your property fast.",
+        "h3": "Common Emergencies We Respond To",
+        "p3": "Tree falls | Hail impact | Torn shingles | Sudden leaks | Wind damage | Collapsed roof sections",
+        "seoContent": "<h2>24-Hour Emergency Roofing in [location]</h2><p>Don’t wait on damage to spread. Our emergency roofing crew in [location] arrives fast to prevent further issues and protect your space. Call [phone] now.</p>",
+        "slug": "emergency-roofing-services",
+        "imageUrl": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/damaged-house-roof-and-walls-after-hurricane.jpg?updatedAt=1749641060871"
+      },
+      {
+        "title": "Energy-Efficient Roofing Options in [location]",
+        "description": "Call [phone] to explore energy-efficient roofing in [location]. Choose from modern materials that reflect heat, reduce cooling bills, and qualify for local energy credits.",
+        "h2": "Smart Roofs for Greener Living",
+        "p2": "Energy-efficient roofs in [location] reduce indoor heat and lower utility costs. We offer a range of materials that meet both performance and sustainability goals.",
+        "h3": "Top Choices for Energy Savings",
+        "p3": "Reflective coatings | White membrane roofs | Cool metal systems | Solar-ready designs | Insulated panels",
+        "seoContent": "<h2>Eco-Friendly Roofing in [location]</h2><p>We help homeowners in [location] save on energy costs with eco-smart roofing options. Our materials keep heat out, comfort in, and bills low. Call [phone] for details.</p>",
+        "slug": "energy-efficient-roofing",
+        "imageUrl": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/newly-build-houses-with-solar-panels-attached.jpg?updatedAt=1749641038128"
+      }
+    ]
+  }
 }

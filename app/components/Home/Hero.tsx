@@ -1,25 +1,21 @@
 import Image from "next/image";
-import CountUp from "../Countup";
-import CouterUpWithK from "../CouterUpWithK";
-import { FaPhoneSquareAlt } from "react-icons/fa";
-import locations from "@/app/components/locations.json";
-import Link from "next/link";
 import Banner from "./Banner";
 import ContactInfo from "@/components/Content/ContactInfo.json";
 import WhyChoose from "./WhyChoose";
-import ProcessWidgetComponent from "./ProcessWidgetComponent";
 import HourCta from "./HourCta";
-import { MdOutlinePhoneCallback } from "react-icons/md";
-import ReviewSlider from "@/app/components/ReviewSlider";
-import homeData from "@/components/Content/home.json";
+import homeData1 from "@/components/Content/home.json";
 import Faq from "./Faq";
-import ServiceSlider from "@/app/components/Home/ServiceSlider";
-import CtaState from "../CtaState";
 import Service from "@/app/components/Home/Service";
-import Types from "../Widgets/Types";
 import ReviewWidget from "../Widgets/ReviewWidget";
 import AreaWeServe from "../Widgets/AreaWeServe";
 import content from "@/components/Content/subDomainUrlContent.json";
+const homeData = JSON.parse(
+    JSON.stringify(homeData1)
+      .split("[location]")
+      .join(ContactInfo.location)
+      .split("[phone]")
+      .join(ContactInfo.No),
+  );
 
 const Hero = () => {
   const cityData: any = content;
@@ -48,7 +44,7 @@ const Hero = () => {
             <Image
               height={10000}
               width={10000}
-              src={`/${homeData.h2Image}`}
+              src={`${homeData.h2Image}`}
               className=" h-full w-full rounded-lg object-cover shadow-lg"
               alt={homeData.h2Image.split(".")[0]}
               title={homeData.h2Image.split(".")[0]}
@@ -57,7 +53,7 @@ const Hero = () => {
         </div>
         {/* Section 1 */}
         {/* Section 2 */}
-        <Types />
+        <Service />
         {/* Section 2 */}
         {/* Cta */}
         {/* <div className="mt-20"></div>
@@ -72,7 +68,7 @@ const Hero = () => {
             <Image
               height={1000}
               width={1000}
-              src={`/${homeData?.h3Image}`}
+              src={`${homeData?.h3Image}`}
               className="h-[400px] w-full  rounded-lg object-cover shadow-lg"
               alt={homeData?.h3Image.split(".")[0]}
             />

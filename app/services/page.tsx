@@ -1,37 +1,42 @@
+import Banner from "@/app/components/Home/Banner";
 import React from "react";
-import Banner from "../components/Home/Banner";
 import contentData from "@/components/Content/servicePage.json";
-import Service from "../components/Home/Service";
 import { Metadata } from "next";
-import Types from "../components/Widgets/Types";
 import ContactInfo from "@/components/Content/ContactInfo.json";
+import Service from "../components/Home/Service";
 
 export const metadata: Metadata = {
   title: {
-    absolute: contentData.metaTitle,
+    absolute: contentData.metaTitle?.split("[location]").join( ContactInfo.location)
+    ?.split("[phone]").join(ContactInfo.No),
   },
-  description: contentData.metaDescription,
+  description: contentData.metaDescription?.split("[location]").join( ContactInfo.location)
+  ?.split("[phone]").join(ContactInfo.No),
   alternates: {
-    canonical: `${ContactInfo.baseUrl}services`,
+    canonical: `${ContactInfo.baseUrl}services/`,
   },
 };
 const page = () => {
   return (
-    <div>
-      <Banner
-        h1={contentData.h1Banner}
-        image={contentData.bannerImage}
-        header={contentData.bannerQuote}
-        p1={contentData.metaDescription}
-      />
-      {/* Content 1 */}
-      <div className="">
-        <div className="mt-20 text-center text-4xl text-minor">
-          {contentData?.serviceTitle}
+    <div className="">
+      <div>
+        <Banner
+          h1={contentData.h1Banner?.split("[location]").join( ContactInfo.location)
+            ?.split("[phone]").join(ContactInfo.No)}
+          image={contentData.bannerImage}
+          header={contentData.bannerQuote}
+          p1={contentData.metaDescription?.split("[location]").join( ContactInfo.location)
+            ?.split("[phone]").join(ContactInfo.No)}
+        />
+
+        {/* Content 1 */}
+        <div className="">
+          {/* <Affordable /> */}
+          <Service />
+          {/* <TypeOfDumpster /> */}
         </div>
-        <Types />
+        {/* Content 1 */}
       </div>
-      {/* Content 1 */}
     </div>
   );
 };

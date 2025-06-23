@@ -1,36 +1,5 @@
 {
   "title": "Types of Roofing Services We Offer in Arizona",
-  "p": "Explore the roofing services we offer to meet your needs:",
-  "lists": [
-    {
-      "title": "New Roof Installation",
-      "imageUrl": "worker-hands-installing-bitumen-roof-shingle.jpg",
-      "description": "Our expert team provides flawless installations for residential and commercial properties. We use premium materials that offer durability, style, and energy efficiency, ensuring your investment lasts for years."
-    },
-    {
-      "title": "Roof Repairs",
-      "imageUrl": "male-builder-doing-thermal-insulation-on-roof.jpg",
-      "description": "We offer fast and effective roof repair services from minor leaks to extensive damage. Our team works precisely to restore your roof’s integrity while minimizing disruption."
-    },
-    {
-      "title": "Roof Inspections",
-      "imageUrl": "selective-focus-of-repairman-in-orange-helmet-sit.jpg",
-      "description": "Regular inspections are crucial to maintain your roof’s longevity. Our thorough assessments identify potential problems early, helping you avoid costly repairs in the future."
-    },
-    {
-      "title": "Roof Replacement",
-      "imageUrl": "male-builder-drilling-in-the-wooden-frame.jpg",
-      "description": "When your roof reaches the end of its lifespan, we provide reliable replacement services. Choose from a variety of materials to suit your style and budget."
-    },
-    {
-      "title": "Emergency Roofing Services",
-      "imageUrl": "damaged-house-roof-and-walls-after-hurricane.jpg",
-      "description": "Roofing emergencies can occur without warning. Our 24/7 emergency services ensure quick and professional solutions to prevent further damage."
-    },
-    {
-      "title": "Energy-Efficient Roofing Options",
-      "imageUrl": "newly-build-houses-with-solar-panels-attached.jpg",
-      "description": "Reduce energy costs and environmental impact with our eco-friendly roofing options. We specialize in cool roofs, reflective coatings, and energy-efficient materials."
-    }    
-  ]
+  "p": "Explore the roofing services we offer to meet your needs:" 
+  
 }

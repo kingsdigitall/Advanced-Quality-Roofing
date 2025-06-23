@@ -4,5 +4,9 @@
     "mail":"",
     "baseUrl":"https://advancedqualityroofingaz.com/",
     "host":"advancedqualityroofingaz.com",
-    "name":"Advanced Quality Roofing"
+    "name":"Advanced Quality Roofing",
+    "address":"221 E Indianola Ave, Phoenix, AZ 85012, United States",
+    "location": "Arizona",
+     "service": "Roofing Service",
+     "logoImage":"https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/logo.png"
 }
