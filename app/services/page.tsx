@@ -4,6 +4,7 @@ import contentData from "@/components/Content/servicePage.json";
 import { Metadata } from "next";
 import ContactInfo from "@/components/Content/ContactInfo.json";
 import Service from "../components/Home/Service";
+import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
   title: {
@@ -20,6 +21,7 @@ const page = () => {
   return (
     <div className="">
       <div>
+        <Navbar/>
         <Banner
           h1={contentData.h1Banner?.split("[location]").join( ContactInfo.location)
             ?.split("[phone]").join(ContactInfo.No)}

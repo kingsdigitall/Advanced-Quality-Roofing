@@ -179,7 +179,7 @@ export default function RootLayout({
       />
     </section> */}
         <div className="bg-white">
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
           <CallButtonMobile/>
         </div>

@@ -1,22 +1,24 @@
+// Footer.tsx
 import Image from "next/image";
 import Link from "next/link";
-import { RiMapPin2Fill } from "react-icons/ri";
+import contentData from "@/components/Content/footer.json";
+import { RiMailFill, RiMapPin2Fill } from "react-icons/ri";
 import data from "@/components/Content/servicePage.json";
 import ContactInfo from "@/components/Content/ContactInfo.json";
 const Footer = () => {
   return (
-    <div className=" flex w-full items-center justify-center bg-[#eeecec]">
+    <div className=" flex w-full items-center justify-center bg-[#eeecec] pb-16">
       <div className=" flex w-full  items-center justify-center overflow-hidden">
         <div className=" mt-8 flex w-full flex-col  items-center justify-center md:min-w-[650px] ">
           <div className="mt-8 flex w-fit flex-col justify-center gap-2 px-6  md:w-full  md:flex-row md:items-start   md:justify-around md:px-20 ">
             <div className="mt-4 flex   items-center justify-center text-2xl md:mt-0 md:w-52">
               <Image
-                src={`/logo.png`}
+                src={`${ContactInfo.logoImage}`}
                 height={10000}
                 width={10000}
                 className="w-full object-cover  "
-                alt="logo"
-                title="logo"
+                alt={contentData.logo.split(".")[0]}
+                title={contentData.logo.split(".")[0]}
               />
             </div>
             <div className="mt-20  flex flex-col items-center   justify-center text-lg md:mt-0  md:w-80">
@@ -33,17 +35,14 @@ const Footer = () => {
                 <Link href="/contact">
                   <p className="">Contact </p>
                 </Link>
-                <Link href="/our-brands">
-                  <p className="">Our Brands </p>
-                </Link>
               </div>
             </div>
             <div className="mt-20  flex flex-col items-center   justify-center text-lg md:mt-0  md:w-[26rem]">
               <div className=" w-fit border-b-2 border-minor text-3xl font-semibold text-main">
                 Our Services
               </div>
-              <div className="mt-6 flex  flex-col gap-2  text-center">
-                {data.serviceData.lists.map(
+              <div className="mt-6 flex   flex-col gap-2  text-center">
+                {data.serviceData.lists.slice(0, 4).map(
                   (list) =>
                     list.title && (
                       <Link href={`/services/${list.slug}`} key={list.title}>
@@ -53,14 +52,18 @@ const Footer = () => {
                       </Link>
                     ),
                 )}
+                <span className="font-semibold text-main">
+                  <Link href={"/services"}>Read More..</Link>
+                </span>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center md:w-80">
+            <div className="flex flex-col items-center justify-center shadow-sm md:w-80    ">
               <div className=" w-fit border-b-2 border-minor text-3xl font-semibold text-main">
                 REACH OUT TO US
               </div>
-              <div className="mt-5  text-lg">
-                <div className="  flex items-center gap-4">
+
+              <div className="mt-5   text-lg">
+                <div className="  flex items-center  gap-4">
                   <div className="w-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -79,18 +82,39 @@ const Footer = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="mt-2">
-                  <div className="flex">
-                    <RiMapPin2Fill className="text-cream mr-5 mt-1 w-8 text-lg" />
-                    {ContactInfo.address}
+                {ContactInfo?.address && (
+                  <div className="mt-2">
+                    <div className="flex">
+                      <RiMapPin2Fill className="text-cream mr-5 mt-1 w-8 text-lg" />
+                      {ContactInfo.address}
+                    </div>
                   </div>
-                </div>
+                )}
+                {ContactInfo.mail && (
+                  <div className="mt-2">
+                    <div className="flex gap-2">
+                      <RiMailFill className="text-cream  mt-1 w-8 text-lg " />
+                      <a
+                        href={`mailto:${ContactInfo.mail}`}
+                        className="!text-start underline"
+                      >
+                        {ContactInfo.mail}
+                      </a>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
-          <div className="mx-9 mt-10 border-t-2 border-minor text-center  text-lg text-main mb-20">
+          <div className="mx-9 mt-10 flex border-t-2 border-minor text-center  text-lg text-main ">
             <p className="my-2">
-              Copyright ©2025 {ContactInfo.name}, All Right Reserved | <Link href={`${ContactInfo.baseUrl}sitemap.xml`} className="hover:font-bold transition">Sitemap</Link>
+              Copyright ©2025 {ContactInfo?.name}, All Right Reserved |
+              <Link
+                href={`${ContactInfo?.baseUrl}sitemap.xml`}
+                className="ml-2 font-semibold underline-offset-8 duration-300 ease-in-out hover:underline hover:underline-offset-2"
+              >
+                Sitemap
+              </Link>
             </p>
           </div>
         </div>
