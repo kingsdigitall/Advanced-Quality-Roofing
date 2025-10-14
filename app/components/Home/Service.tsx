@@ -61,7 +61,7 @@ const StateName = contentData?.name ? (abbrevation ? `${contentData.name}, ${abb
               className={`1  mt-4 w-[75%] justify-start gap-2 px-4 text-lg font-bold text-main  md:flex  md:text-xl`}
             >
               <MdDoubleArrow className="text-bold hidden text-3xl md:block" />
-              <Link href={`${ContactInfo.baseUrl}services/${items.slug}`}>
+              <Link href={`/services/${items.slug}`}>
                 {items.title?.split("[location]").join(contentData?.name || ContactInfo.location)
             ?.split("[phone]").join(ContactInfo.No)}
               </Link>

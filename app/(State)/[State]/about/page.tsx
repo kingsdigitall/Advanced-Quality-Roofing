@@ -2,42 +2,53 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BiMailSend, BiSolidPhone, BiSolidTime } from "react-icons/bi";
-import { BsBookmarkStarFill, BsFillPatchCheckFill } from "react-icons/bs";
+import content from "@/components/Content/subDomainUrlContent.json";
 import { FaCrown } from "react-icons/fa6";
 import Banner from "@/app/components/Home/Banner";
-import contentData1 from "@/components/Content/about.json";
+import contentData from "@/components/Content/about.json";
 import ContactInfo from "@/components/Content/ContactInfo.json";
-import Affordable from "../components/Widgets/Affordable";
-import Navbar from "../components/Navbar";
- const contentData = JSON.parse(
-    JSON.stringify(contentData1)
-      .split("[location]")
-      .join(ContactInfo.location)
-      .split("[phone]")
-      .join(ContactInfo.No),
-  );
+import Navbar from "@/app/components/State/NavbarState";
+import Affordable from "@/app/components/Widgets/Affordable";
+import { headers } from "next/headers";
 
-export const metadata: Metadata = {
+
+export function generateMetadata({ params }: { params: { services: string } }) {
+const headersList = headers();
+  const subdomain = headersList.get("x-subdomain");
+  const Data: any = content[subdomain as keyof typeof content];
+  // console.log(Data.name)
+  return {
   title: {
-    absolute: contentData.metaTitle,
+    absolute: contentData.metaTitle.split("[location]").join(Data?.name || ContactInfo.location)
+            ?.split("[phone]").join(ContactInfo.No),
   },
   description: contentData.metaDescription,
   alternates: {
-    canonical: `${ContactInfo.baseUrl}about`,
+    canonical: `https://${Data.slug}.${ContactInfo.host}/about/`,
   },
-};
+}}
 const page = () => {
+   const headersList = headers();
+  const subdomain = headersList.get("x-subdomain");
+  const Data: any = content[subdomain as keyof typeof content];
+   const contentData1 = JSON.parse(
+    JSON.stringify(contentData)
+      .split("[location]").join(Data?.name || ContactInfo.location)
+            ?.split("[phone]").join(ContactInfo.No),
+  );
   return (
     <div className="max-[1200px] flex flex-col items-center justify-center  bg-white text-black ">
       <div className="  w-screen min-w-[375px] cursor-default  text-lg md:w-full">
         {/* poster */}
+        
         <Navbar/>
         <Banner
-          h1={contentData.h1Banner}
+          h1={contentData.h1Banner.split("[location]").join(Data?.name || ContactInfo.location)
+            ?.split("[phone]").join(ContactInfo.No)}
           image={contentData.bannerImage}
           header={contentData.bannerQuote}
-          p1={contentData.metaDescription}
+          p1={contentData.metaDescription.split("[location]").join(Data?.name || ContactInfo.location)
+            ?.split("[phone]").join(ContactInfo.No)}
         />
         {/* poster */}
         {/* -----------------------------------------About Start------------------------ */}
@@ -53,7 +64,7 @@ const page = () => {
               <div className="mt-6 "></div>
               <div
                 className="  text-justify"
-                dangerouslySetInnerHTML={{ __html: contentData.p2 }}
+                dangerouslySetInnerHTML={{ __html: contentData1.p2 }}
               ></div>
             </div>
             <div className="w-full pt-10">
@@ -89,9 +100,9 @@ const page = () => {
         {/* Mission */}
         <Affordable
           Data={{
-            missionSection: contentData.missionSection,
-            missionTitle: contentData.missionTitle,
-            missionDescription: contentData.missionDescription,
+            missionSection: contentData1.missionSection,
+            missionTitle: contentData1.missionTitle,
+            missionDescription: contentData1.missionDescription,
           }}
         />
 
