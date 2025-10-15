@@ -146,7 +146,7 @@ export default async function NeighborhoodPage({
   }
 
   const cityData: any = content;
-  
+
   // Validate subdomain
   const subDomain = Object.keys(cityData);
   const validSubdomains = subDomain;
@@ -172,9 +172,8 @@ export default async function NeighborhoodPage({
       n.trim().toLowerCase().replace(/\.+$/, "").replace(/\s+/g, "-"),
     );
 
-  const neighborhoodMatch = validNeighborhoods.find((n: string) => 
-    n === neighborhood || 
-    n === neighborhood.toLowerCase()
+  const neighborhoodMatch = validNeighborhoods.find(
+    (n: string) => n === neighborhood || n === neighborhood.toLowerCase(),
   );
 
   if (!neighborhoodMatch) {
@@ -186,7 +185,7 @@ export default async function NeighborhoodPage({
     .split("-")
     .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
-  
+
   const ContentData = JSON.parse(
     JSON.stringify(parentCityData)
       .split("[location]")
@@ -346,8 +345,7 @@ export default async function NeighborhoodPage({
                 </h4>
                 <p>
                   Commercial {ContactInfo.service} in {ContentData?.name},{" "}
-                  {parentCityData?.name || State},{" "}
-                  {stateAbbreviation}.
+                  {parentCityData?.name || State}, {stateAbbreviation}.
                 </p>
               </div>
             </div>
@@ -660,7 +658,7 @@ export default async function NeighborhoodPage({
               title="Google Map"
               height="350"
               width={"100%"}
-              src={`https://maps.google.com/maps?q=${ContentData?.slug}+USA&t=&z=7&ie=UTF8&iwloc=&output=embed`}
+              src={`https://maps.google.com/maps?q=${ContentData?.slug}+${stateAbbreviation}+USA&t=&z=10&ie=UTF8&iwloc=&output=embed`}
               loading="lazy"
             ></iframe>
           </div>
