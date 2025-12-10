@@ -9,7 +9,7 @@ import contentData1 from "@/components/Content/contact.json";
 import { headers } from "next/headers";
 import content from "@/components/Content/subDomainUrlContent.json";
 import Navbar from "@/app/components/State/NavbarState";
-
+import localImages from "@/local-image-paths.json"
 export function generateMetadata() {
   const headersList = headers();
   const subdomain = headersList.get("x-subdomain");
@@ -56,7 +56,7 @@ const page = () => {
           <Image
             height={10000}
             width={10000}
-            src={`${contentData.h2Image}`}
+            src={`/ourBrand/${localImages.ourBrand.h2Image}`}
             className=" h-full w-full rounded-lg object-cover shadow-lg"
             alt={contentData.h2Image.split(".")[0] || "image"}
             title={contentData.h2Image.split(".")[0] || "image"}

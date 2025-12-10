@@ -12,6 +12,7 @@ import ReviewWidget from "@/app/components/Widgets/ReviewWidget";
 import AreaWeServe from "@/app/components/Widgets/AreaWeServe";
 import Service from "@/app/components/Home/Service";
 import NavbarState from "@/app/components/State/NavbarState";
+import localImages from "@/local-image-paths.json";
 // import Service from "@/app/Components/Service";
 
 const content = JSON.parse(
@@ -121,6 +122,12 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
   const slugs: any = Object.keys(cityData)
     .filter((key) => key !== State)
     .map((key) => cityData[key]);
+  const stateIndex = Object.keys(cityData).indexOf(State);
+  const stateImages =
+    localImages.subDomainUrlContent[
+      stateIndex as any as keyof typeof localImages.subDomainUrlContent
+    ];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -128,7 +135,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         name: `${ContactInfo.name}`,
-        image: `${ContactInfo.logoImage}`,
+        image: `/ContactInfo/${localImages.ContactInfo.logoImage}`,
         address: {
           "@type": "PostalAddress",
           streetAddress: `${stateName[abbrevations.toUpperCase()]} ${ContactInfo.service}`,
@@ -205,7 +212,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
           <Image
             height={1000}
             width={1000}
-            src={`${ContentData?.h2Image}`}
+            src={`/subDomainUrlContent/${stateImages?.h2Image}`}
             className="h-[400px] w-full  rounded-lg object-cover shadow-lg"
             alt={ContentData?.h2Image.split(".")[0]}
           />
@@ -303,7 +310,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
             <Image
               height={10000}
               width={10000}
-              src={`${ContentData.h5Image}`}
+              src={`/subDomainUrlContent/${stateImages?.h5Image}`}
               className=" h-80 w-full rounded-lg object-cover shadow-lg"
               alt={ContentData.h5Image.split(".")[0]}
               title={ContentData.h5Image.split(".")[0]}

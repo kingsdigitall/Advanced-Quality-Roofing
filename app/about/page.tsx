@@ -10,6 +10,8 @@ import contentData1 from "@/components/Content/about.json";
 import ContactInfo from "@/components/Content/ContactInfo.json";
 import Affordable from "../components/Widgets/Affordable";
 import Navbar from "../components/Navbar";
+import localImages from "@/local-image-paths.json"
+
  const contentData = JSON.parse(
     JSON.stringify(contentData1)
       .split("[location]")
@@ -58,7 +60,7 @@ const page = () => {
             </div>
             <div className="w-full pt-10">
               <Image
-                src={`${contentData.h2Image}`}
+                src={`/about/${localImages.about.h2Image}`}
                 className="rounded-lg border object-cover  shadow-lg "
                 alt={contentData.h2Image.split(".")[0]}
                 width={1000}

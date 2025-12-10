@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import ContactInfo from "@/components/Content/ContactInfo.json";
-import data from "@/components/Content/hourCtaWidget.json";
+import data from "@/components/Content/home.json";
 
 const HourCta = () => {
   return (
@@ -11,7 +11,7 @@ const HourCta = () => {
           <div className="flex flex-col  items-start  justify-center gap-10 text-white ">
             <div
               className="w-full pt-4 text-center text-xl leading-snug md:pt-0  md:text-[38px]"
-              dangerouslySetInnerHTML={{ __html: data.title }}
+              dangerouslySetInnerHTML={{ __html: data.hourCtaWidgetTitle }}
             ></div>
             <a id='cta-id'
               href={`tel:${ContactInfo.tel}`}

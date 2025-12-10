@@ -15,6 +15,7 @@ const subdomainContent: any = content;
 import Affordable from "@/app/components/Widgets/Affordable";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
+import localImages from "@/local-image-paths.json";
 
 interface NeighborhoodPageProps {
   params: { State: string; neighborhood: string };
@@ -207,7 +208,11 @@ export default async function NeighborhoodPage({
   // Get state abbreviation
   const stateAbbreviation = State.split("-").pop()?.toUpperCase() || "";
   const fullStateName = stateName[stateAbbreviation] || State;
-
+ const stateIndex = Object.keys(cityData).indexOf(State);
+  const stateImages =
+    localImages.subDomainUrlContent[
+      stateIndex as any as keyof typeof localImages.subDomainUrlContent
+    ];
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -215,7 +220,7 @@ export default async function NeighborhoodPage({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         name: `${ContactInfo.name}`,
-        image: `https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/logo.png?updatedAt=1749641037194`,
+        image: `/ContactInfo/${localImages.ContactInfo.logoImage}`,
         address: {
           "@type": "PostalAddress",
           streetAddress: `${fullStateName} ${ContactInfo.service}`,
@@ -311,7 +316,7 @@ export default async function NeighborhoodPage({
             <Image
               height={1000}
               width={1000}
-              src={`${ContentData?.h2Image}`}
+              src={`/subDomainUrlContent/${stateImages?.h2Image}`}
               className="h-full w-full  rounded-lg object-cover shadow-lg"
               alt={
                 ContentData?.h2Image.split("/").pop()?.split(".")[0] || "image"
@@ -415,7 +420,7 @@ export default async function NeighborhoodPage({
               <Image
                 height={10000}
                 width={10000}
-                src={`${ContentData.h5Image}`}
+                src={`/subDomainUrlContent/${stateImages?.h5Image}`}
                 className=" h-[16rem] w-full rounded-lg object-cover shadow-lg"
                 alt={
                   ContentData.h5Image.split("/").pop()?.split(".")[0] || "image"
