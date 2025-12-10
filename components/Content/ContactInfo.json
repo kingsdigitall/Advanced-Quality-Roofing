@@ -1,12 +1,13 @@
 {
     "No": "(602) 894-5307",
     "tel": "6028945307",
-    "mail":"jake@advancedqualityroofingaz.com",
-    "baseUrl":"https://advancedqualityroofingaz.com/",
-    "host":"advancedqualityroofingaz.com",
-    "name":"Advanced Quality Roofing",
-    "address":"221 E Indianola Ave, Phoenix, AZ 85012, United States",
+    "mail": "jake@advancedqualityroofingaz.com",
+    "baseUrl": "https://advancedqualityroofingaz.com/",
+    "host": "advancedqualityroofingaz.com",
+    "name": "Advanced Quality Roofing",
+    "address": "221 E Indianola Ave, Phoenix, AZ 85012, United States",
     "location": "Arizona",
-     "service": "Roofing Service",
-     "logoImage":"https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/logo.png"
+    "service": "Roofing Service",
+    "logoImage": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/logo.png",
+    "bannerImage": "https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/banner.jpg"
 }

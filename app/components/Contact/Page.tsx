@@ -7,7 +7,7 @@ import ContactInfo from "@/components/Content/ContactInfo.json";
 import Banner from "../Home/Banner";
 import { headers } from "next/headers";
 import content from "@/components/Content/subDomainUrlContent.json";
-
+import localImages from "@/local-image-paths.json";
 const Page = () => {
   const headersList = headers();
   const subdomain = headersList.get("x-subdomain");
@@ -36,7 +36,7 @@ const Page = () => {
           <div className="mt-10 px-4 md:px-20">
             <div className="mt-10  grid grid-cols-1 items-center gap-6 md:grid-cols-2">
               <Image
-                src={`${contentData.h2Image}`}
+                src={`/contact/${localImages.contact.h2Image}`}
                 width={1000}
                 height={1000}
                 alt={contentData.h2Image.split(".")[0]}
@@ -98,7 +98,7 @@ const Page = () => {
           </div>
           <div>
             <Image
-              src={`${contentData.h3Image}`}
+              src={`/contact/${localImages.contact.h3Image}`}
               className="h-[350px] w-full rounded-lg border object-cover shadow-lg"
               alt={contentData.h3Image.split(".")[0]}
               width={1000}
@@ -112,7 +112,7 @@ const Page = () => {
         <div className="group mx-4 mt-16 flex w-11/12 flex-col items-center justify-center gap-6 px-10 md:mx-0 md:mb-4 md:flex-row md:space-x-2 xl:w-full">
           <Image
             aria-hidden="true"
-            src="https://ik.imagekit.io/serviceproviders/advancedqualityroofingaz.com/img1.png?updatedAt=1749641037584"
+            src="/img1.png"
             alt="Calling icon"
             width={200}
             height={200}

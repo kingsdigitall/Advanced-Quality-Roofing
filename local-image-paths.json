@@ -1,0 +1,201 @@
+{
+  "about": {
+    "h2Image": "Roofing-technicians-with-roofer-expert.png"
+  },
+  "contact": {
+    "h2Image": "maintenance-worker-is-diligently-repairing-leaky-roof-residential-building-showcasing-skill-focus-scene-captures-essence-hard-work-dedication-home-maintenance.jpg",
+    "h3Image": "medium-shot-men-working-roof-together.jpg"
+  },
+  "ContactInfo": {
+    "logoImage": "logo.png",
+    "bannerImage": "banner.jpg"
+  },
+  "home": {
+    "h2Image": "Affordable-Roof-Service-min.png",
+    "h3Image": "medium-shot-men-working-roof-together.jpg"
+  },
+  "ourBrand": {
+    "h2Image": "medium-shot-men-working-roof-together.jpg"
+  },
+  "servicePage": {
+    "lists": {
+      "0": {
+        "imageUrl": "worker-hands-installing-bitumen-roof-shingle.jpg"
+      },
+      "1": {
+        "imageUrl": "male-builder-doing-thermal-insulation-on-roof.jpg"
+      },
+      "2": {
+        "imageUrl": "Roofers-construction-work.png"
+      },
+      "3": {
+        "imageUrl": "worker-hands-installing-bitumen-roof-shingle.jpg"
+      },
+      "4": {
+        "imageUrl": "damaged-house-roof-and-walls-after-hurricane.jpg"
+      },
+      "5": {
+        "imageUrl": "newly-build-houses-with-solar-panels-attached.jpg"
+      }
+    },
+    "bannerImage": "roofing-banner-image.jpg"
+  },
+  "subDomainUrlContent": {
+    "0": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "1": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "2": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "3": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "4": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "5": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "6": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "7": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "8": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "9": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "10": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "11": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "12": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "13": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "14": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "15": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "16": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "17": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "18": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "19": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "20": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "21": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "22": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "23": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "24": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "25": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "26": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "27": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "28": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "29": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "30": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "31": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "32": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "33": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "34": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "35": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "36": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "37": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    },
+    "38": {
+      "h2Image": "asian-male-roof-installer-asian-construction-workers-roof-work-using-drill.jpg",
+      "h5Image": "Roofing-technicians-with-roofer-expert.png"
+    }
+  }
+}

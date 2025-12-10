@@ -8,7 +8,7 @@ import content from "@/components/Content/subDomainUrlContent.json";
 import ContactInfo from "@/components/Content/ContactInfo.json";
 import CtaSimple from "@/app/components/CtaSimple";
 import Navbar from "@/app/components/State/NavbarState";
-
+import localImages from "@/local-image-paths.json"
 const Servicedata = data?.serviceData;
 
 export function generateMetadata({ params }: { params: { services: string } }) {
@@ -38,6 +38,11 @@ const page = ({ params }: { params: { services: string } }) => {
   const subdomain = headersList.get("x-subdomain");
   const Data: any = content[subdomain as keyof typeof content];
   const locationName = Data.name|| ContactInfo.location;
+   const Index:any = Servicedata.lists.findIndex(
+    (service) => service.slug === params.services,
+  );
+const serviceImages = `/servicePage/${localImages.servicePage.lists[Index as keyof typeof localImages.servicePage.lists].imageUrl}`;
+
   return (
     <div className="">
       <div className="">
@@ -71,7 +76,7 @@ const page = ({ params }: { params: { services: string } }) => {
             </div>
             <div className="w-full pt-10">
               <Image
-                src={serviceData.imageUrl}
+                src={serviceImages}
                 className="h-80 rounded-lg border object-cover shadow-lg"
                 alt={serviceData.title.split("/").pop()?.split(".")[0] || "image"}
                 width={1000}

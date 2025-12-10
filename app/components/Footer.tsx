@@ -5,6 +5,7 @@ import contentData from "@/components/Content/footer.json";
 import { RiMailFill, RiMapPin2Fill } from "react-icons/ri";
 import data from "@/components/Content/servicePage.json";
 import ContactInfo from "@/components/Content/ContactInfo.json";
+import localImages from "@/local-image-paths.json"
 const Footer = () => {
   return (
     <div className=" flex w-full items-center justify-center bg-[#eeecec] pb-16">
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="mt-8 flex w-fit flex-col justify-center gap-2 px-6  md:w-full  md:flex-row md:items-start   md:justify-around md:px-20 ">
             <div className="mt-4 flex   items-center justify-center text-2xl md:mt-0 md:w-52">
               <Image
-                src={`${ContactInfo.logoImage}`}
+                src={`/ContactInfo/${localImages.ContactInfo.logoImage}`}
                 height={10000}
                 width={10000}
                 className="w-full object-cover  "

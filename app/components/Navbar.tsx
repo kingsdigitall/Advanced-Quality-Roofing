@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { FaPhoneVolume } from "react-icons/fa";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import ContactInfo from "@/components/Content/ContactInfo.json";
-
+import localImages from "@/local-image-paths.json"
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="flex ">
               <Link href={ContactInfo?.baseUrl} aria-label="Home">
                 <Image
-                  src="/logo.png"
+                  src={`/ContactInfo/${localImages.ContactInfo.logoImage}`}
                   className=" h-16  w-full object-cover "
                   alt="logo of the company"
                   title=""

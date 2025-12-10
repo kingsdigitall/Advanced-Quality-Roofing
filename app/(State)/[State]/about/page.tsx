@@ -10,7 +10,7 @@ import ContactInfo from "@/components/Content/ContactInfo.json";
 import Navbar from "@/app/components/State/NavbarState";
 import Affordable from "@/app/components/Widgets/Affordable";
 import { headers } from "next/headers";
-
+import localImages from "@/local-image-paths.json"
 
 export function generateMetadata({ params }: { params: { services: string } }) {
 const headersList = headers();
@@ -69,7 +69,7 @@ const page = () => {
             </div>
             <div className="w-full pt-10">
               <Image
-                src={`${contentData.h2Image}`}
+                src={`/about/${localImages.about.h2Image}`}
                 className="rounded-lg border object-cover  shadow-lg "
                 alt={contentData.h2Image.split(".")[0]}
                 width={1000}

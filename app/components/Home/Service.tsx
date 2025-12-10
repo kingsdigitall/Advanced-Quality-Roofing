@@ -5,6 +5,8 @@ import content from "@/components/Content/subDomainUrlContent.json";
 import { MdDoubleArrow } from "react-icons/md";
 import Link from "next/link";
 import  ContactInfo  from "@/components/Content/ContactInfo.json";
+import localImages from "@/local-image-paths.json"
+
 interface ServiceItem {
   imageUrl: string;
   slug: string;
@@ -45,7 +47,7 @@ const StateName = contentData?.name ? (abbrevation ? `${contentData.name}, ${abb
               <div className="h-14 w-14 overflow-hidden rounded-full object-cover md:h-full md:w-full md:rounded-none">
                 <Image
                   aria-hidden="true"
-                  src={`${items.imageUrl}`}
+                  src={`/servicePage/${localImages.servicePage.lists[index as any as keyof typeof localImages.servicePage.lists].imageUrl}`}
                   unoptimized={true}
                   alt={
                     items.imageUrl.split("/").pop()?.split(".")[0] || "image"
